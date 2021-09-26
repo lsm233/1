@@ -1,0 +1,9 @@
+<!--index.wxml-->
+<view class="box">
+  <view class="title">7个彩票号码</view> 
+  <view>7个彩票号码为:</view> 
+  <view wx:for="{{rand}}">{{item}}</view> 
+  <button type="primary" bindtap="newRand">重新生成</button>
+</view>
+<view>电科19-2 201923010213 李世茂
+坚持就是胜利</view>

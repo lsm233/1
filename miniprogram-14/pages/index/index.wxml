@@ -1,0 +1,12 @@
+<!--index.wxml-->
+ <view class="box">
+ <view class='title'>求五年后得到多少钱</view>
+  <view>
+  <input placeholder="请输入本金" type="number" bindblur="principal"></input>
+  <input placeholder="请输入利率" type="number" bindblur="interestrate"></input>
+</view>
+ <view>五年后应得：{{sum}}</view>
+ <button type="primary" bindtap="calc">Money</button>
+</view>
+<view>电科19-2 201923010213 李世茂
+坚持就是胜利</view>
